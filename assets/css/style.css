@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/* /common rules */
+#app-nav {
+    height: 50px;
+    background-color: #3161e0;
+    display: flex;
+}
+
+#app-bot-header {
+    background-image: url(../img/jumbo.png);
+    height: 400px;
+    display: flex;
+    background-position: fixed;
+}
+
+#app-main1 {
+    display: flex;
+    background-color: bisque;
+    height: 500px;
+}
+
+#app-main2 {
+    display: flex;
+    background-color: rgb(185, 140, 84);
+    height: 500px;
+}
+
+#app-main3 {
+    display: flex;
+    background-color: rgb(196, 43, 196);
+    height: 800px;
+}
+
+#app-top-footer {
+    display: flex;
+    background-color: rgb(7, 7, 7);
+    height: 500px;
+}
+
+#app-bot-footer {
+    display: flex;
+    background-color: rgb(153, 192, 46);
+    height: 100px;
+}
+
+.bd {
+    border: 2px dashed rgb(255, 0, 0);
+}
+
+/* #nav*/
+
+.flex-nav {
+    display: flex;
+    margin: 0.7rem auto;
+    width: 70%;
+    background-color: #3161e0;
+}
+
+.logo {
+    display: flex;
+    flex-grow: 1;
+    justify-content: left;
+    align-items: center;
+}
+
+.nav {
+    flex-wrap: wrap;
+    display: flex;
+    flex-grow: 5;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-ul li {
+    font-size: 13px;
+    padding: 0 1rem;
+    list-style: none;
+    color: white;
+}
+
+.login-section {
+    padding: 0.5rem;
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+    align-items: center;
+}
+
+.login {
+    background-color: white;
+    color: #3161e0;
+    padding: 0.5rem;
+    border-radius: 15px;
+    font-size: 10px;
+}
+
+/* end#nav */
+
+/* app-bot-header */
+
+.header-container {
+    color: white;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    margin: 2rem auto;
+}
+
+
+
+/* #end-app-bot-header */
+
+/* main section */
+
+.main-content {
+    display: flex;
+    background-color: black;
+    width: 70%;
+    margin: 2rem auto;
+}
+
+.article {
+    display: flex;
+    flex-grow: 3;
+    background-color: aqua;
+}
+
+.img {
+    display: flex;
+    flex-grow: 2;
+    background-color: rgb(165, 34, 51);
+}
+
+.main-container {
+    display: flex;
+    background-color: rgb(41, 155, 60);
+    width: 70%;
+    margin: 2rem auto;
+}
+
+/* #end main-section */
+
+/* footer */
+
+.flex-footer-container {
+    display: flex;
+    background-color: rgb(37, 47, 184);
+    width: 70%;
+    margin: 2rem auto;
+}
+
+.column {
+    display: flex;
+    flex-grow: 2;
+    background-color: aqua;
+}
+
+.column1 {
+    display: flex;
+    flex-grow: 1;
+    background-color: rgb(166, 62, 180);
+}
+
+.flex-footer {
+    display: flex;
+    background-color: cornflowerblue;
+    width: 70%;
+    margin: 2rem auto 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer {
+    background-color: pink;
+    padding: 0.2rem;
+}
+
+.button {
+    background-color: pink;
+    padding: 0.2rem;
+}
+
+/* #end footer */
