@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: sans-serif;
+    color: #23272a;
+}
+
 .container {
     width: 70%;
     max-width: 1140px;
@@ -17,15 +22,17 @@
 /* /common rules */
 #app-nav {
     height: 50px;
-    background-color: #3161e0;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: fixed top;
     display: flex;
 }
 
 #app-bot-header {
     background-image: url(../img/jumbo.png);
-    height: 400px;
+    background-size: cover;
     display: flex;
-    background-position: fixed;
+    background-position: center;
 }
 
 #app-main1 {
@@ -68,7 +75,6 @@
     display: flex;
     margin: 0.7rem auto;
     width: 70%;
-    background-color: #3161e0;
 }
 
 .logo {
@@ -121,7 +127,31 @@
     margin: 2rem auto;
 }
 
+.header-container h1 {
+    margin: 2rem;
+}
 
+.header-container p {
+    margin: 2rem 20%;
+}
+
+.button-mac {
+    margin: 0 1rem;
+    color: black;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 50px;
+    border: 0px;
+}
+
+.button-browser {
+    margin: 0 1rem;
+    color: white;
+    background-color: #23272a;
+    padding: 0.5rem;
+    border-radius: 50px;
+    border: 0px;
+}
 
 /* #end-app-bot-header */
 
