@@ -54,8 +54,8 @@ body {
 
 #trust {
     display: flex;
-    background-color: rgb(196, 43, 196);
-    height: 800px;
+    background-color: #f6f6f6;
+    padding: 2rem 0;
 }
 
 #app-top-footer {
@@ -180,22 +180,40 @@ body {
     width: 25%;
 }
 
-.article p{
+.article p {
     font-size: 1rem;
 }
 
-.article h1{
+.article h1 {
     padding: 2rem 0;
     font-weight: 700;
     font-size: 2rem;
 }
 
 
-.main-container {
-    display: flex;
-    background-color: rgb(41, 155, 60);
-    width: 70%;
-    margin: 2rem auto;
+.tecnology {
+    justify-content: center;
+    text-align: center;
+}
+
+.tecnology h1{
+    padding: 1rem 0;
+}
+
+.tecnology h2{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.button-disabled{
+    margin: 2rem 1rem;
+    color: white;
+    background-color: #8ea1e1;
+    padding: 0.7rem;
+    border-radius: 50px;
+    border: 0px;
 }
 
 /* #end main-section */
