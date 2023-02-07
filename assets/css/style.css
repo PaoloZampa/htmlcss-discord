@@ -66,8 +66,7 @@ body {
 
 #app-bot-footer {
     display: flex;
-    background-color: rgb(153, 192, 46);
-    height: 100px;
+    background-color: #23272a;
 }
 
 .bd {
@@ -248,9 +247,9 @@ body {
     text-align: center;
     text-decoration: none;
     color: white;
-  }
+}
 
-.leng{
+.leng {
     padding: 0.7rem 0;
 }
 
@@ -270,7 +269,7 @@ body {
     color: #667ac1;
 }
 
-.column a{
+.column a {
     color: white;
     text-decoration: none;
     padding: 0.6rem 0;
@@ -279,21 +278,21 @@ body {
 
 .flex-footer {
     display: flex;
-    background-color: cornflowerblue;
     width: 70%;
-    margin: 2rem auto 0 auto;
+    margin: 2rem auto;
+    padding: 3rem 0;
     justify-content: space-between;
     align-items: center;
+    border-top: 2px solid #667ac1;
 }
 
-.logo-footer {
-    background-color: pink;
-    padding: 0.2rem;
-}
-
-.button {
-    background-color: pink;
-    padding: 0.2rem;
+.register {
+    color: white;
+    background-color: #8ea1e1;
+    padding: 0.7rem;
+    border-radius: 50px;
+    border: 0px;
+    margin: auto;
 }
 
 /* #end footer */
