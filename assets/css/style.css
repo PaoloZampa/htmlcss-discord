@@ -20,15 +20,19 @@ body {
 }
 
 /* /common rules */
-#app-nav {
+#app-header {
     background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#app-nav {
     background-size: cover;
     background-position: fixed center;
     display: flex;
 }
 
 #app-bot-header {
-    background-image: url(../img/jumbo.png);
     background-size: cover;
     display: flex;
     background-position: center;
@@ -69,13 +73,10 @@ body {
     background-color: #23272a;
 }
 
-.bd {
-    border: 2px dashed rgb(255, 0, 0);
-}
-
 /* #nav*/
 
 .flex-nav {
+    flex-wrap: wrap;
     display: flex;
     margin: 0.7rem auto;
     width: 70%;
@@ -167,6 +168,7 @@ body {
 /* main section */
 
 .main-content {
+    flex-wrap: wrap;
     justify-content: center;
     display: flex;
     width: 70%;
