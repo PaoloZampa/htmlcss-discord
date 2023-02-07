@@ -55,13 +55,13 @@ body {
 #trust {
     display: flex;
     background-color: #f6f6f6;
-    padding: 2rem 0;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
 }
 
 #app-top-footer {
     display: flex;
-    background-color: rgb(7, 7, 7);
-    height: 500px;
+    background-color: #23272a;
 }
 
 #app-bot-footer {
@@ -192,28 +192,34 @@ body {
 
 
 .tecnology {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
+
 }
 
-.tecnology h1{
+.tecnology h1 {
     padding: 1rem 0;
 }
 
-.tecnology h2{
+.tecnology h2 {
     background-image: url(../img/stars.svg);
     background-position: center;
-    background-size: 90%;
+    background-size: 55%;
     background-repeat: no-repeat;
+    padding: 1rem;
 }
 
-.button-disabled{
+.button-disabled {
+    width: 20%;
     margin: 2rem 1rem;
     color: white;
     background-color: #8ea1e1;
     padding: 0.7rem;
     border-radius: 50px;
     border: 0px;
+    margin: auto;
 }
 
 /* #end main-section */
@@ -225,19 +231,37 @@ body {
     background-color: rgb(37, 47, 184);
     width: 70%;
     margin: 2rem auto;
+    justify-content: space-around;
+}
+
+.main-column {
+    width: 30%;
+    background-color: #23272a;
+}
+
+
+.main-column h2 {
+    color: #667ac1;
 }
 
 .column {
     display: flex;
-    flex-grow: 2;
-    background-color: aqua;
+    flex-direction: column;
+    width: 20%;
+    background-color: #23272a;
 }
 
-.column1 {
-    display: flex;
-    flex-grow: 1;
-    background-color: rgb(166, 62, 180);
+.column h4 {
+    padding: 1rem 0;
+    color: #667ac1;
 }
+
+.column a{
+    color: white;
+    text-decoration: none;
+    padding: 0.6rem 0;
+}
+
 
 .flex-footer {
     display: flex;
