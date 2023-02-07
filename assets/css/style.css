@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: sans-serif;
     color: #23272a;
 }
@@ -21,10 +21,9 @@ body{
 
 /* /common rules */
 #app-nav {
-    height: 50px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    background-position: fixed top;
+    background-position: fixed center;
     display: flex;
 }
 
@@ -35,19 +34,25 @@ body{
     background-position: center;
 }
 
-#app-main1 {
+#safe-talk {
     display: flex;
-    background-color: bisque;
-    height: 500px;
+    background-color: white;
+    padding: 2rem 0;
 }
 
-#app-main2 {
+#easy-meetings {
     display: flex;
-    background-color: rgb(185, 140, 84);
-    height: 500px;
+    background-color: #f6f6f6;
+    padding: 2rem 0;
 }
 
-#app-main3 {
+#fandom {
+    display: flex;
+    background-color: white;
+    padding: 2rem 0;
+}
+
+#trust {
     display: flex;
     background-color: rgb(196, 43, 196);
     height: 800px;
@@ -78,6 +83,7 @@ body{
 }
 
 .logo {
+    width: 80px;
     display: flex;
     flex-grow: 1;
     justify-content: left;
@@ -153,28 +159,37 @@ body{
     border: 0px;
 }
 
+.buttons {
+    padding-bottom: 5rem;
+}
+
 /* #end-app-bot-header */
 
 /* main section */
 
 .main-content {
+    justify-content: center;
     display: flex;
-    background-color: black;
     width: 70%;
     margin: 2rem auto;
 }
 
 .article {
+    flex-direction: column;
     display: flex;
-    flex-grow: 3;
-    background-color: aqua;
+    width: 25%;
 }
 
-.img {
-    display: flex;
-    flex-grow: 2;
-    background-color: rgb(165, 34, 51);
+.article p{
+    font-size: 1rem;
 }
+
+.article h1{
+    padding: 2rem 0;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
 
 .main-container {
     display: flex;
